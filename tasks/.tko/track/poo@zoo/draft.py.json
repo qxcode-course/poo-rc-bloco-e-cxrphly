@@ -1,0 +1,44 @@
+{
+    "patches": [
+        {
+            "label": "2025-12-05_06-38-17",
+            "content": "@@ -1,971 +0,0 @@\n-class Animal:%0A    def __init__(self, name:str):%0A        self.name = name%0A    %0A    def apresentar_animal(self):%0A        return f%22Eu sou um(a) %7Bself.name%7D%22%0A    %0A    def fazer_som(self):%0A        pass%0A    def mover(self):%0A        pass%0A%0Aclass Leao(Animal):%0A    def __init__(self, name:str):%0A        super().__init__(name)%0A%0A    def fazer_som(self):%0A        print(%22Roooar%22)%0A%0A    def mover(self):%0A        pass%0A%0Aclass Elefante(Animal):%0A%0A    def __init__(sefl, name:str):%0A        super().__init__(name)%0A%0A    def fazer_som(self):%0A        print(%22PRRRR%22)%0A    def mover(self):%0A        pass%0A%0Aclass Cobra(Animal):%0A    def __init__(self, name):%0A        super().__init__(name)%0A    def fazer_som(self):%0A        print(%22ssssssss%22)%0A    def mover(self):%0A        pass%0A%0Adef apresentar(animal:Animal):%0A    animal.apresentar_animal()%0A    animal.fazer_som()%0A    animal.mover()%0A%0A%0Aanimais = %5B%0A    Leao(%22Lion%22),%0A    Cobra(%22Snake%22),%0A    Elefante(%22Dumbo%22)%0A%5D%0A%0Afor animal in animais:%0A    apresentar(animal)\n",
+            "lines": "0"
+        },
+        {
+            "label": "2025-12-05_06-51-04",
+            "content": "@@ -846,32 +846,8 @@\n r()%0A\n-    print(type(animal))%0A\n %0A%0Aan\n",
+            "lines": "54"
+        },
+        {
+            "label": "2025-12-05_06-51-40",
+            "content": "@@ -868,17 +868,8 @@\n mal)\n-.__name__\n )%0A%0A%0A\n",
+            "lines": "55"
+        },
+        {
+            "label": "2025-12-05_06-52-03",
+            "content": "@@ -856,24 +856,8 @@\n int(\n-%22Tipo Objeto = %22\n type\n",
+            "lines": "55"
+        },
+        {
+            "label": "2025-12-05_06-52-22",
+            "content": "@@ -868,18 +868,16 @@\n jeto = %22\n-, \n type(ani\n",
+            "lines": "55"
+        },
+        {
+            "label": "2025-12-05_06-52-33",
+            "content": "@@ -869,16 +869,17 @@\n eto = %22,\n+ \n type(ani\n",
+            "lines": "55"
+        },
+        {
+            "label": "2025-12-05_06-52-41",
+            "content": "@@ -869,17 +869,16 @@\n eto = %22,\n- \n type(ani\n",
+            "lines": "55"
+        },
+        {
+            "label": "2025-12-05_06-52-48",
+            "content": "class Animal:\n    def __init__(self, name:str):\n        self.name = name\n    \n    def apresentar_animal(self):\n        return f\"Eu sou um(a) {self.name}\"\n    \n    def fazer_som(self):\n        pass\n    def mover(self):\n        pass\n\nclass Leao(Animal):\n    def __init__(self, name:str):\n        super().__init__(name)\n\n    def fazer_som(self):\n        print(\"Roooar\")\n\n    def mover(self):\n        pass\n\nclass Elefante(Animal):\n\n    def __init__(sefl, name:str):\n        super().__init__(name)\n\n    def fazer_som(self):\n        print(\"PRRRR\")\n    def mover(self):\n        pass\n\nclass Cobra(Animal):\n    def __init__(self, name):\n        super().__init__(name)\n    def fazer_som(self):\n        print(\"ssssssss\")\n    def mover(self):\n        pass\n\ndef apresentar(animal:Animal):\n    animal.apresentar_animal()\n    animal.fazer_som()\n    animal.mover()\n    print(\"Tipo Objeto = \", type(animal).__name__)\n\n\nanimais = [\n    Leao(\"Lion\"),\n    Cobra(\"Snake\"),\n    Elefante(\"Dumbo\")\n]\n\nfor animal in animais:\n    apresentar(animal)",
+            "lines": "55"
+        }
+    ]
+}
