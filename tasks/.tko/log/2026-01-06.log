@@ -1,0 +1,18 @@
+2026-01-06 00:08:23, MOVE, v:1, k:poo@cofre, mode:PICK
+2026-01-06 00:14:57, EXEC, v:1, k:poo@cofre, mode:FULL, rate:0, size:13
+2026-01-06 00:26:30, EXEC, v:1, k:poo@cofre, mode:FULL, rate:0, size:103
+2026-01-06 00:30:40, EXEC, v:1, k:poo@cofre, mode:FULL, rate:0, size:122
+2026-01-06 00:36:37, EXEC, v:1, k:poo@cofre, mode:FULL, rate:0, size:172
+2026-01-06 00:36:51, EXEC, v:1, k:poo@cofre, mode:FULL, rate:0, size:176
+2026-01-06 00:37:07, EXEC, v:1, k:poo@cofre, mode:FULL, rate:0, size:177
+2026-01-06 00:37:27, EXEC, v:1, k:poo@cofre, mode:FULL, rate:10, size:177
+2026-01-06 00:41:51, EXEC, v:1, k:poo@cofre, mode:FULL, rate:0, size:174
+2026-01-06 00:42:15, EXEC, v:1, k:poo@cofre, mode:FULL, rate:0, size:167
+2026-01-06 00:42:41, EXEC, v:1, k:poo@cofre, mode:FULL, rate:0, size:167
+2026-01-06 00:43:13, EXEC, v:1, k:poo@cofre, mode:FULL, rate:10, size:168
+2026-01-06 00:45:55, EXEC, v:1, k:poo@cofre, mode:FULL, rate:0, size:181
+2026-01-06 00:46:39, EXEC, v:1, k:poo@cofre, mode:FULL, rate:0, size:179
+2026-01-06 00:46:40, EXEC, v:1, k:poo@cofre, mode:FULL, rate:0
+2026-01-06 00:47:47, EXEC, v:1, k:poo@cofre, mode:FULL, rate:20, size:173
+2026-01-06 00:48:37, EXEC, v:1, k:poo@cofre, mode:FULL, rate:100, size:176
+2026-01-06 00:48:45, MOVE, v:1, k:poo@cofre, mode:BACK

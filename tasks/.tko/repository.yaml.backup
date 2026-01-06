@@ -12,7 +12,7 @@ sources:
   type: clone
   branch: master
   cache_path: ''
-  cache_timestamp: '2025-12-14 00:11:36'
+  cache_timestamp: '2026-01-06 00:08:06'
   filters:
   - herança
 expanded:
@@ -20,6 +20,8 @@ expanded:
 - poo@bloco_f-herança-i
 tasks:
   poo@shapes: '{rate:100}'
+  poo@estacionamento: '{rate:100}'
+  poo@cofre: '{rate:100}'
 flags:
   quests: 0
   tracks: 0
@@ -27,4 +29,4 @@ flags:
   graph: 1
   xray: 0
 lang: py
-selected: poo@estacionamento
+selected: poo@cofre
